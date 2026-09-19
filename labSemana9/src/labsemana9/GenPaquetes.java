@@ -8,8 +8,8 @@ public class GenPaquetes extends Thread{
     private static final String[] ciudades = Rutas.getCiudades();
     private static String[] direcciones = {"Primer Calle", "Circunvalacion", "Lima Vieja", "Agua Blanca", "Segunda Avenida"};
 
-    private static final int minMS = 800;
-    private static final int maxMS = 600;
+    private static final int minMS = 600;
+    private static final int maxMS = 800;
 
     private Logistica log;
     private Random aleatorio = new Random();
